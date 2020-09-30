@@ -8,8 +8,12 @@ function DisplayUser(props) {
     <div className="maincard">
     <h2> Hello {name}</h2> <br>
     </br><img width="200px" src={avatar_url} />
-    <br></br>
+    <div className="userinfo">
+    <div>Followers: {followers}</div>
+    <div>Following: {following}</div>
+    <div>Bio: {bio}</div>
     Located in {location}.
+    </div>
     </div>
   
     <div>
