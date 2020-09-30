@@ -1,0 +1,21 @@
+.App{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.follower{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+h1{
+  margin-left: 40%;
+
+}
+.maincard{
+margin-left: 35%;
+margin-right: 35%;
+padding: 5%;
+border: 10px solid grey;
+}
